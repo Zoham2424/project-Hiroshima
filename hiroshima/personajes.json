@@ -1,0 +1,46 @@
+{
+    "vanguards": [
+      "Hulk",
+      "Captain America",
+      "Doctor Strange",
+      "Emma Frost",
+      "Groot",
+      "Magneto",
+      "Peni Parker",
+      "The Thing",
+      "Thor",
+      "Venom"
+    ],
+    "duelists": [
+      "Adam Warlock",
+      "Black Panther",
+      "Black Widow",
+      "Hawkeye",
+      "Hela",
+      "Human Torch",
+      "Iron Fist",
+      "Iron Man",
+      "Magik",
+      "Mister Fantastic",
+      "Moon Knight",
+      "Namor",
+      "Psylocke",
+      "Punisher",
+      "Scarlet Witch",
+      "Spider-Man",
+      "Squirrel Girl",
+      "Star-Lord",
+      "Storm",
+      "Winter Soldier",
+      "Wolverine"
+    ],
+    "strategists": [
+      "Cloak & Dagger",
+      "Invisible Woman",
+      "Jeff the Land Shark",
+      "Loki",
+      "Luna Snow",
+      "Mantis",
+      "Rocket Raccoon"
+    ]
+  }

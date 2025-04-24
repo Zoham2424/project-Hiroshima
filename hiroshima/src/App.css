@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+}
+
+.box {
+  border: 2px solid black;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+  color:#1d1736;
+  background-color: #927f7f;
+  width: fit-content;
+}
+
+.caja-fata{
+  color:aquamarine;
+  font-size: x-large;
+  font-weight: bold;
+  text-align: center;
+  background-color: #1d1736;
+}
