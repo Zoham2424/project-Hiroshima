@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import '../App.css';
 
 export const sm = {width: "30%", height: "30%"};
 export const md = {width: "50%", height: "50%"};
