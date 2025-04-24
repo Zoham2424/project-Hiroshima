@@ -11,3 +11,11 @@
   background-color: #927f7f;
   width: fit-content;
 }
+
+.caja-fata{
+  color:aquamarine;
+  font-size: x-large;
+  font-weight: bold;
+  text-align: center;
+  background-color: #1d1736;
+}

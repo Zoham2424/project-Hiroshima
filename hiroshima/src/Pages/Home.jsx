@@ -9,11 +9,11 @@ const Home = () => {
     <>
       <div className="header">This is home</div>
                 <p>Welcome to home</p>
-
-      <Box size="sm">
+      <div className="caja-fata">
+      <Box size="sm" >
         <p>This is a resized small box</p>
       </Box>
-
+      </div>
       <Box size="md">
         <p>This is a medium box</p>
       </Box>
