@@ -1,33 +1,50 @@
 {
-    "Zhedrion": [
-      {
-        "strategist": "Loki"
-      }
-    ],
-    "Fata": [
-      {
-        "strategist": "Mantis"
-      }
-    ],
-    "Zoham": [
-      {
-        "duelist": "Wolverine"
-      }
-    ],
-    "Angelo": [
-      {
-        "strategist": "Doctor Strange"
-      }
-    ],
-    "Nyme": [
-      {
-        "duelist": "Black Widow"
-      }
-    ],
-    "Avlaon": [
-      {
-        "vanguard": "Hulk"
-      }
-    ]
-  }
-  
+  "Zhedrion": [
+    {
+      "strategist": "Loki, Luna, Rocket, Invisible Woman"
+    },
+    {
+      "duelist": "Iron Fist"
+    }
+  ],
+  "Fata": [
+    {
+      "duelist": "Punisher, Winter Soldier, Mister Fantastic, Storm, Hela"
+    },
+    {
+      "vanguard": "Groot, The Thing"
+    }
+  ],
+  "Zoham": [
+    {
+      "strategist": "Rocket, Cloak and Dagger, Luna, Mantis"
+    },
+    {
+      "vanguard": "Venom, Thor, The Thing, Peni Parker, Magneto, Groot, Emma Frost, Doctor, Hulk"
+    }
+  ],
+  "Angelo": [
+    {
+      "duelist": "Black Panther, Black Widow, Hawkeye, Hela, Mister Fantastic, Moon Knight, Spider-Man, Star-Lord, Winter Soldier"
+    },
+    {
+      "vanguard": "Doctor Strange, Emma Frost, Groot, Magneto, Venom"
+    }
+  ],
+  "Nyme": [
+    {
+      "strategist": "Cloak & Dagger, Invisible Woman, Rocket Raccoon, Luna Snow"
+    },
+    {
+      "vanguard": "Magneto, Peni Parker, Doctor Strange"
+    }
+  ],
+  "Avalon": [
+    {
+      "strategist": "Invisible Woman, Luna Snow, Rocket Raccoon"
+    },
+    {
+      "duelist": "Squirrel Girl, Scarlet Witch, Namor, Psylocke, Moon Knight"
+    }
+  ]
+}

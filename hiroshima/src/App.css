@@ -1,21 +1,44 @@
-.App {
-  text-align: center;
+
+body {
+
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  font-family: 'Comic Sans MS', cursive, sans-serif; /* Comic style font */
+  color: white; /* Text color for contrast */
 }
+
+
+.header {
+  text-align: center;
+  font-size: 3rem; /* Large font size for header */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Comic-style shadow */
+  margin-top: 20px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5); /* Slight dark background for readability */
+  border-radius: 10px;
+  display: inline-block;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.6); /* Shadow effect */
+}
+
+
+p {
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 20px;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.4);
+}
+
 
 .box {
-  border: 2px solid black;
   margin: 20px auto;
   padding: 20px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 8px;
   text-align: center;
-  color:#1d1736;
-  background-color: #927f7f;
-  width: fit-content;
-}
-
-.caja-fata{
-  color:aquamarine;
-  font-size: x-large;
-  font-weight: bold;
-  text-align: center;
-  background-color: #1d1736;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
 }
