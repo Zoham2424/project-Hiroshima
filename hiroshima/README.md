@@ -42,3 +42,5 @@ npm install react-router-dom
 npm install firebase
 # Firebase tools
 npm install -g firebase-tools
+# router Dom
+npm install react-router-dom

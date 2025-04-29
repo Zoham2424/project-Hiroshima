@@ -7,13 +7,14 @@ const Home = () => {
 
   return (
     <>
-      <div className="header">Hiroshima E-Sports</div>
-      <p>Welcome to home</p>
-
-      
+      <div className="header">Hiroshima E-Sports</div>    
       <Box className="box">
         <p>More content or components can go here!</p>
       </Box>
+      <Box className="box">
+        <p>More content or components can go here!</p>
+      </Box>
+
     </>
   );
 };
