@@ -38,3 +38,7 @@ _Add a more detailed description here. What problem does it solve? Who is it for
 npm install
 # React dom
 npm install react-router-dom
+# Firebase
+npm install firebase
+# Firebase tools
+npm install -g firebase-tools
