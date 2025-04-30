@@ -15,7 +15,7 @@ function App() {
 
   return (
     <div className="App">
-      <div className="center">
+      <div >
         <button onClick={playersLookUp} className="button">
           Players
         </button>
