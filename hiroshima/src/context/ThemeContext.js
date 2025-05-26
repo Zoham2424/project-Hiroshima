@@ -3,7 +3,7 @@ import { createContext, useState, useEffect } from "react";
 export const themes = {
     light: {
         foreground: "#242526",
-        background: "rgb(80, 67, 129)",
+         background: "linear-gradient(180deg, rgba(230,230,230,1) 0%, rgba(176,176,176,1) 50%, rgba(59,59,59,1) 100%)",
         button: " #11814d",
     },
     dark: {
