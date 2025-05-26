@@ -16,6 +16,9 @@
     },
     {
       "vanguard": "Groot, The Thing"
+    },
+    {
+      "Image": "punisher.jpg"
     }
   ],
   "Zoham": [
@@ -24,6 +27,9 @@
     },
     {
       "vanguard": "Venom, Thor, The Thing, Peni Parker, Magneto, Groot, Emma Frost, Doctor, Hulk"
+    },
+    {
+      "Image": "rocket.jpg"
     }
   ],
   "Angelo": [
@@ -32,6 +38,9 @@
     },
     {
       "vanguard": "Doctor Strange, Emma Frost, Groot, Magneto, Venom"
+    },
+    {
+      "Image": "winterSoldier.jpg"
     }
   ],
   "Nyme": [
@@ -40,6 +49,9 @@
     },
     {
       "vanguard": "Magneto, Peni Parker, Doctor Strange"
+    },
+    {
+      "Image": "penny_parker.jpg"
     }
   ],
   "Avalon": [
@@ -48,6 +60,9 @@
     },
     {
       "duelist": "Squirrel Girl, Scarlet Witch, Namor, Psylocke, Moon Knight"
+    },
+    {
+      "Image": "namor.jpg"
     }
   ]
 }

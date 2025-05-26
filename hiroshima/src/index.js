@@ -5,9 +5,11 @@ import Home from './Pages/Home';
 import Players from './Pages/Players';
 import App from './App';
 import './index.css';
+import { ThemeProvider } from './context/ThemeContext';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
+    <ThemeProvider> 
     <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />}>
@@ -17,5 +19,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Route path="*" element={<div>You have been splatted</div>} />
     </Routes>
     </BrowserRouter>
+    </ThemeProvider>
   </React.StrictMode>
 );
