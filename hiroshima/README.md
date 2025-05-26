@@ -36,5 +36,11 @@ _Add a more detailed description here. What problem does it solve? Who is it for
 ```bash
 # Example commands to install dependencies
 npm install
-# or
-pip install -r requirements.txt
+# React dom
+npm install react-router-dom
+# Firebase
+npm install firebase
+# Firebase tools
+npm install -g firebase-tools
+# router Dom
+npm install react-router-dom

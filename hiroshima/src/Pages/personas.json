@@ -1,0 +1,68 @@
+{
+  "Zhedrion": [
+    {
+      "strategist": "Loki, Luna, Rocket, Invisible Woman"
+    },
+    {
+      "duelist": "Iron Fist"
+    },
+    {
+      "Image": "ironFist.png"
+    }
+  ],
+  "Fata": [
+    {
+      "duelist": "Punisher, Winter Soldier, Mister Fantastic, Storm, Hela"
+    },
+    {
+      "vanguard": "Groot, The Thing"
+    },
+    {
+      "Image": "punisher.jpg"
+    }
+  ],
+  "Zoham": [
+    {
+      "strategist": "Rocket, Cloak and Dagger, Luna, Mantis"
+    },
+    {
+      "vanguard": "Venom, Thor, The Thing, Peni Parker, Magneto, Groot, Emma Frost, Doctor, Hulk"
+    },
+    {
+      "Image": "rocket.jpg"
+    }
+  ],
+  "Gelo2Sick": [
+    {
+      "duelist": "Black Panther, Black Widow, Hawkeye, Hela, Mister Fantastic, Moon Knight, Spider-Man, Star-Lord, Winter Soldier"
+    },
+    {
+      "vanguard": "Doctor Strange, Emma Frost, Groot, Magneto, Venom"
+    },
+    {
+      "Image": "winterSoldier.jpg"
+    }
+  ],
+  "Nyme": [
+    {
+      "strategist": "Cloak & Dagger, Invisible Woman, Rocket Raccoon, Luna Snow"
+    },
+    {
+      "vanguard": "Magneto, Peni Parker, Doctor Strange"
+    },
+    {
+      "Image": "penny_parker.jpg"
+    }
+  ],
+  "Avalon": [
+    {
+      "strategist": "Invisible Woman, Luna Snow, Rocket Raccoon"
+    },
+    {
+      "duelist": "Squirrel Girl, Scarlet Witch, Namor, Psylocke, Moon Knight"
+    },
+    {
+      "Image": "namor.jpg"
+    }
+  ]
+}
