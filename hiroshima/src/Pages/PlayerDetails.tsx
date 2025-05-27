@@ -2,8 +2,6 @@ import { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { Box } from '../Components/Box';
 import axios from 'axios';
-import personas from './personas.json'; 
-
 
 const PlayerDetails = () => {
   const { playerName } = useParams();
