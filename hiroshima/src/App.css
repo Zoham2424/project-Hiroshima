@@ -34,14 +34,11 @@ body {
 
 p {
   text-align: center;
-  font-size: 1.5rem;
-  margin: 20px;
-  padding: 10px;
-  background-color: rgba(0, 0, 0, 0.4);
-  border-radius: 5px;
-  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.4);
-}
+  font-size: 3rem; 
+  margin: auto; 
 
+  max-width: 7000px; 
+}
 
 .box {
   margin: 20px;
@@ -57,21 +54,11 @@ p {
   grid-auto-rows: auto;                
   gap: 100px;
   padding: 20px;
-  max-width: 1500px;
+  max-width: 1450px;
   margin: 0 auto;   
   color: #054375;
 }
-.qa-header {
-  text-align: center;
-  font-size: 1.3rem;
-  color: #fff;
-  background-color: rgba(19, 44, 155, 0.253);
-  padding: 20px;
-  margin: 20px auto;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
-  max-width: 20%;
-}
+
 .player-box {
   flex: 1 1 300px;
   max-width: 350px;
@@ -81,6 +68,14 @@ p {
   border-radius: 8px;
   background-color: #b32f25;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.player-nickname {
+  font-style: italic;
+  font-size: 2rem;
+  margin-top: 10px;
+  text-align: center;
+  color: rgb(85, 38, 38);
+  text-shadow: 1px 1px 2px rgb(248, 248, 248);
 }
 .button {
   font: inherit;
@@ -113,9 +108,9 @@ p {
 
 .player-image {
   width: 100%;
-  height: 300px;
-  object-fit: contain;
-  border-radius: 10px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 20px;
   margin-bottom: 10px;
 }
 
@@ -187,4 +182,55 @@ input:checked + .slider:before {
   width: 250px;
   height: auto;
   border-radius: 8px;
+}
+
+.qa-container {
+  max-width: 900px;
+  margin:  auto;
+  padding: 15px;
+}
+
+.qa-container section {
+  margin-bottom: 20px;
+  background-color: #636779; 
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.qa-container h2 {
+  margin-bottom: 10px;
+  font-size: 2rem;
+  color: #0b156d; 
+}
+
+.qa-container p,
+.qa-container li {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  margin: 0;
+  color:rgb(34, 180, 78)
+}
+
+.qa-container ul {
+  padding-left: 20px;
+}
+.social ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.social li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.social a {
+  color: #b6364b;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.social a:hover {
+  text-decoration: underline;
 }

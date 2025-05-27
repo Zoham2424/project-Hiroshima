@@ -8,6 +8,9 @@
     },
     {
       "Image": "ironFist.png"
+    },
+    {
+    "nickname": "One Trick Pony"
     }
   ],
   "Fata": [
@@ -19,6 +22,9 @@
     },
     {
       "Image": "punisher.jpg"
+    },
+    {
+    "nickname": "Tussi"
     }
   ],
   "Zoham": [
@@ -30,7 +36,10 @@
     },
     {
       "Image": "rocket.jpg"
-    }
+    },
+    {
+    "nickname": "The Coach"
+   }
   ],
   "Gelo2Sick": [
     {
@@ -41,6 +50,9 @@
     },
     {
       "Image": "winterSoldier.jpg"
+    },
+    {
+    "nickname": "The Golden boy"
     }
   ],
   "Nyme": [
@@ -52,6 +64,9 @@
     },
     {
       "Image": "penny_parker.jpg"
+    },
+    {
+    "nickname": "Amazon's MVP"
     }
   ],
   "Avalon": [
@@ -63,6 +78,9 @@
     },
     {
       "Image": "namor.jpg"
+    },
+    {
+    "nickname": "Crybaby"
     }
   ]
 }
