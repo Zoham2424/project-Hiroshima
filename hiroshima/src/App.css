@@ -240,11 +240,12 @@ input:checked + .slider:before {
 /* PlayerDetails */
 .cardDetails {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 2rem;
   flex-wrap: wrap;
-  
+  gap: 2rem;
+  justify-content: center;  
+  align-items: flex-start;
+  max-width: 100%;   
+  box-sizing: border-box;
 }
 
 .card-text {
@@ -253,8 +254,11 @@ input:checked + .slider:before {
 }
 
 .card-image img {
-  width: 550px;
+  width: 3000PX;      
+  max-width: 400px; 
+  height: auto;
   border-radius: 8px;
+  display: block;
 }
 
 .cardDetails h2 {

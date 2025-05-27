@@ -38,7 +38,7 @@ if (!player) {
       <div className="cardDetails">
         <div className="card-text">
           <h2>{player.id}</h2>
-          <h3>{player.nickname}</h3>
+          <h3>AKA: {player.nickname}</h3>
           <p className="player-description">{player.description}</p>
           {player.strategist && (
             <p><strong>Strategist:</strong> {player.strategist}</p>
