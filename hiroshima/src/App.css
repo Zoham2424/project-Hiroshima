@@ -41,12 +41,15 @@ p {
 }
 
 .box {
-  margin: 20px;
+  margin: 2rem auto;
   padding: 20px;
   background-color: rgba(79, 196, 157, 0.7);
   border-radius: 8px;
+  padding: 1.5rem;
+  box-sizing: border-box;
   text-align: center;
   box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+  height: auto;
 }
 .players-grid {
   display: grid;
@@ -233,4 +236,56 @@ input:checked + .slider:before {
 
 .social a:hover {
   text-decoration: underline;
+}
+/* PlayerDetails */
+.cardDetails {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+  flex-wrap: wrap;
+  
+}
+
+.card-text {
+  flex: 1 1 400px;
+  max-width: 70%;
+}
+
+.card-image img {
+  width: 550px;
+  border-radius: 8px;
+}
+
+.cardDetails h2 {
+  font-size: 2.5rem;
+  color: #062a4e;
+  margin-bottom: 0.5rem;
+}
+
+.cardDetails h3 {
+  font-size: 2rem;
+  font-style: italic;
+  color: #444;
+  margin-bottom: 1rem;
+}
+
+.player-description {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+  color: #444;
+}
+
+.cardDetails p {
+  font-size: 2rem;
+  margin: 0.4rem 0;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  padding-top: 200px; 
+  box-sizing: border-box;
 }

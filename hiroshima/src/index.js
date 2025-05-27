@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './Pages/Home';
 import Players from './Pages/Players';
+import PlayerDetails from './Pages/PlayerDetails';
 import App from './App';
 import './index.css';
 import { ThemeProvider } from './context/ThemeContext';
@@ -17,6 +18,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Route path="/" element={<App />}>
         <Route index element={<Home />} />
         <Route path="players" element={<Players />} />
+        <Route path="players/:playersId" element={<PlayerDetails />} />
         <Route path="aboutUs" element={<AboutUs/>} />
         <Route path="championships" element={<Championships />} />
       </Route>

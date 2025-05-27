@@ -1,46 +1,52 @@
 {
-    "vanguards": [
-      "Hulk",
-      "Captain America",
-      "Doctor Strange",
-      "Emma Frost",
-      "Groot",
-      "Magneto",
-      "Peni Parker",
-      "The Thing",
-      "Thor",
-      "Venom"
-    ],
-    "duelists": [
-      "Adam Warlock",
-      "Black Panther",
-      "Black Widow",
-      "Hawkeye",
-      "Hela",
-      "Human Torch",
-      "Iron Fist",
-      "Iron Man",
-      "Magik",
-      "Mister Fantastic",
-      "Moon Knight",
-      "Namor",
-      "Psylocke",
-      "Punisher",
-      "Scarlet Witch",
-      "Spider-Man",
-      "Squirrel Girl",
-      "Star-Lord",
-      "Storm",
-      "Winter Soldier",
-      "Wolverine"
-    ],
-    "strategists": [
-      "Cloak & Dagger",
-      "Invisible Woman",
-      "Jeff the Land Shark",
-      "Loki",
-      "Luna Snow",
-      "Mantis",
-      "Rocket Raccoon"
-    ]
-  }
+  "players": [
+    {
+      "id": "Zhedrion",
+      "strategist": "Loki, Luna, Rocket, Invisible Woman",
+      "duelist": "Iron Fist",
+      "description": "Zhedrion is a versatile player known for his strategic mind and ability to adapt to different situations. He excels in using characters that require careful planning and execution.",
+      "Image": "ironFist2.jpg",
+      "nickname": "One Trick Pony"
+    },
+    {
+      "id": "Fata",
+      "duelist": "Punisher, Winter Soldier, Mister Fantastic, Storm, Hela",
+      "vanguard": "Groot, The Thing",
+       "description": "Zhedrion is a versatile player known for his strategic mind and ability to adapt to different situations. He excels in using characters that require careful planning and execution.",
+      "Image": "punisher2.jpg",
+      "nickname": "Tussi"
+    },
+    {
+      "id": "Zoham",
+      "strategist": "Rocket, Cloak and Dagger, Luna, Mantis",
+      "vanguard": "Venom, Thor, The Thing, Peni Parker, Magneto, Groot, Emma Frost, Doctor, Hulk",
+       "description": "Zhedrion is a versatile player known for his strategic mind and ability to adapt to different situations. He excels in using characters that require careful planning and execution.",
+      "Image": "rocket2.jpg",
+      "nickname": "The Coach"
+    },
+    {
+      "id": "Gelo2Sick",
+      "duelist": "Black Panther, Black Widow, Hawkeye, Hela, Mister Fantastic, Moon Knight, Spider-Man, Star-Lord, Winter Soldier",
+      "vanguard": "Doctor Strange, Emma Frost, Groot, Magneto, Venom",
+       "description": "Zhedrion is a versatile player known for his strategic mind and ability to adapt to different situations. He excels in using characters that require careful planning and execution.",
+      "Image": "winterSoldier2.jpg",
+      "nickname": "The Golden boy"
+    },
+    {
+      "id": "Nyme",
+      "strategist": "Cloak & Dagger, Invisible Woman, Rocket Raccoon, Luna Snow",
+      "vanguard": "Magneto, Peni Parker, Doctor Strange",
+       "description": "Zhedrion is a versatile player known for his strategic mind and ability to adapt to different situations. He excels in using characters that require careful planning and execution.",
+      "Image": "penny2.jpg",
+      "nickname": "Amazon's MVP"
+    },
+    {
+      "id": "Avalon",
+      "strategist": "Invisible Woman, Luna Snow, Rocket Raccoon",
+      "duelist": "Squirrel Girl, Scarlet Witch, Namor, Psylocke, Moon Knight",
+       "description": "Zhedrion is a versatile player known for his strategic mind and ability to adapt to different situations. He excels in using characters that require careful planning and execution.",
+      "Image": "namor2.jpg",
+      "nickname": "Crybaby"
+    }
+  ]
+}

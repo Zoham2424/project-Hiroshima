@@ -1,6 +1,7 @@
 import React from 'react';
 import { Box } from '../components/Box';
 import personas from './personas.json';
+import { Link } from 'react-router-dom';
 
 const Players = () => {
   return (
@@ -8,6 +9,11 @@ const Players = () => {
       <div className="header">Hiroshima E-Sports Players</div>
       <div className="players-grid">
         {Object.entries(personas).map(([playerName, roles], index) => (
+          <Link 
+            to={`/players/${playerName}`} 
+            key={index} 
+            style={{ textDecoration: 'none', color: 'inherit' }}
+          >
           <Box key={index} size="lg">
             <h2>{playerName}</h2>
 
@@ -43,6 +49,7 @@ const Players = () => {
               );
             })}
           </Box>
+          </Link>
         ))}
       </div>
     </>
