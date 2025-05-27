@@ -61,7 +61,17 @@ p {
   margin: 0 auto;   
   color: #054375;
 }
-
+.qa-header {
+  text-align: center;
+  font-size: 1.3rem;
+  color: #fff;
+  background-color: rgba(19, 44, 155, 0.253);
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  max-width: 20%;
+}
 .player-box {
   flex: 1 1 300px;
   max-width: 350px;
@@ -170,7 +180,7 @@ input:checked + .slider:before {
 .logo-container {
   position: absolute;
   top: 1rem;
-  right: 1rem;
+  left: 1rem;
 }
 
 .logo {

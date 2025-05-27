@@ -7,6 +7,7 @@ import App from './App';
 import './index.css';
 import { ThemeProvider } from './context/ThemeContext';
 import AboutUs from './Pages/AboutUs.tsx';
+import Championships from './Pages/Championships';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -17,6 +18,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route index element={<Home />} />
         <Route path="players" element={<Players />} />
         <Route path="aboutUs" element={<AboutUs/>} />
+        <Route path="championships" element={<Championships />} />
       </Route>
       <Route path="*" element={<div>You have been splatted</div>} />
     </Routes>

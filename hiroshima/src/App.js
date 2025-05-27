@@ -26,6 +26,7 @@ function App() {
       </div>
       <button onClick={showHome} className="button">Home</button>
         <button onClick={playersLookUp} className="button">Players</button>
+        <button onClick={() => navigate('/championships')} className="button">Championships</button>
         <button onClick={() => navigate('/aboutUs')} className="button">About Us</button>
         <ToggleSwitch onToggle={toggleTheme} />
       </div>
