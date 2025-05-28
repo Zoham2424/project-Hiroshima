@@ -7,7 +7,7 @@ export const themes = {
         button: " #11814d",
     },
     dark: {
-        foreground: "#fff",
+        foreground: "rgb(7, 82, 156)",
         background: "#242526",
         button: "#ba8fff",
     }
