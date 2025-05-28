@@ -15,7 +15,7 @@ const Players = () => {
             style={{ textDecoration: 'none', color: 'inherit' }}
           >
           <Box key={index} size="lg">
-            <h2>{playerName}</h2>
+            <h2 style={{ fontSize: '2.5rem' }}>{playerName}</h2>
 
             {roles.map((roleObj, idx) => {
               const roleType = Object.keys(roleObj)[0];
@@ -42,11 +42,7 @@ const Players = () => {
               }
 
               
-              return (
-                <div key={idx}>
-                  <strong>{roleType.charAt(0).toUpperCase() + roleType.slice(1)}:</strong> {roleNames}
-                </div>
-              );
+              return null;
             })}
           </Box>
           </Link>

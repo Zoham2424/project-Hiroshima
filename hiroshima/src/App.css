@@ -29,6 +29,7 @@ body {
   justify-content: left; 
   padding: 1rem;
   width: 100%;
+  
   gap: 1rem;
 }
 
@@ -47,11 +48,18 @@ p {
   border-radius: 8px;
   display: flexbox;
   padding: 1.5rem;
+  overflow: auto;
   box-sizing: border-box;
   text-align: center;
   box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
   height: auto;
 }
+.button-container {
+  margin-top: auto;
+  text-align: center;
+  padding: 1rem;
+}
+
 .players-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr); 
@@ -83,7 +91,8 @@ p {
 }
 .button {
   font: inherit;
-  padding: 0.5rem 1.5rem;
+  font-size: 1.5rem;         
+  padding: 1rem 2.5rem;
   cursor: pointer;
   border-radius: 5px;
   background-color: #2f1d70;
@@ -241,7 +250,7 @@ input:checked + .slider:before {
 /* PlayerDetails */
 .cardDetails {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: flex;
   gap: 2rem;
   justify-content: center;  
   align-items: flex-start;
@@ -255,8 +264,8 @@ input:checked + .slider:before {
 }
 
 .card-image img {
-  width: 3000PX;      
-  max-width: 400px; 
+  width: 500PX;      
+
   height: auto;
   border-radius: 8px;
   display: block;
@@ -274,17 +283,23 @@ input:checked + .slider:before {
   color: #444;
   margin-bottom: 1rem;
 }
-
+.cardDetails h4 {
+  font-size: 2rem;
+  font-style: cursive;
+  color: #61460dd0;
+  margin-bottom: 1rem;
+}
 .player-description {
   font-size: 1rem;
   margin-bottom: 1rem;
   line-height: 1.5;
-  color: #444;
+  color: #8a3232;
 }
 
 .cardDetails p {
   font-size: 2rem;
   margin: 0.4rem 0;
+  color: #c01e18c2;
 }
 .center {
   display: flex;
@@ -294,3 +309,121 @@ input:checked + .slider:before {
   padding-top: 200px; 
   box-sizing: border-box;
 }
+
+.social-links {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: #f3f4f6;
+  border-radius: 8px;
+  max-width: 400px;
+  
+}
+
+.social-links h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #1f2937;
+}
+
+.social-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.social-links li {
+  margin: 0.5rem 0;
+}
+
+.social-links a {
+  color: #1a0dab;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.social-links li a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: #2563eb;
+  transition: color 0.2s ease;
+}
+
+.social-links li a:hover {
+  color: #1d4ed8;
+}
+/* championships*/
+.championship-container {
+  padding: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.button-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.game-button {
+  background-color: #1d7040;
+  color: white;
+  font-size: 1.5rem; 
+  padding: 1rem;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-align: center;
+}
+
+.game-button:hover {
+  background-color: #4a3a9a;
+}
+
+/* Modal content styles */
+.modal-header {
+  color: #b91c1c;
+  font-size: 1.75rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.achievements-list {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  color: #374151; 
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+.modal-game-image {
+  width: 100%;
+  width: 1000px;
+  object-fit: cover;
+}
+.modal-content h2 {
+  font-size: 2.5rem;
+  color: #2f1d70; 
+  margin-bottom: 1rem;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.modal-content ul {
+  list-style-type: disc;       
+  padding-left: 1.5rem;       
+  color: #333333;              
+  font-size: 2rem;
+  line-height: 1.6;
+  max-width: 400px;            
+  margin: 0 auto;             
+}
+
+.modal-content ul li {
+  margin-bottom: 0.6rem;       
+  transition: color 0.3s ease;
+}
+

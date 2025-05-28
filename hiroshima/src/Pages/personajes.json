@@ -6,7 +6,11 @@
       "duelist": "Iron Fist",
       "description": "Zhedrion is a versatile player known for his strategic mind and ability to adapt to different situations.",
       "Image": "ironFist2.jpg",
-      "nickname": "One Trick Pony"
+      "nickname": "One Trick Pony",
+      "social": {
+        "twitch": "https://www.twitch.tv/stonertopwastaken",
+        "instagram": "https://www.instagram.com/cris_cp04?igsh=dHpob2N4Z2M4cXd1"
+      }
     },
     {
       "id": "Fata",
@@ -14,7 +18,11 @@
       "vanguard": "Groot, The Thing",
        "description": "Fata is a Dps specialist who focuses on dealing high damage to enemies.",
       "Image": "punisher2.jpg",
-      "nickname": "Tussi"
+      "nickname": "Tussi",
+      "social": {
+        "twitch": "https://www.twitch.tv/fataa12",
+        "instagram": "https://www.instagram.com/fabian_ls05?igsh=MWc5Z2Q3aDQyZXl5Zw=="
+      }
     },
     {
       "id": "Zoham",
@@ -22,7 +30,11 @@
       "vanguard": "Venom, Thor, The Thing, Peni Parker, Magneto, Groot, Emma Frost, Doctor, Hulk",
        "description": "Zoham he excels in using multiple support characters, and planning for the matches ahead.Playing as more then a support but a coach.",
       "Image": "rocket2.jpg",
-      "nickname": "The Coach"
+      "nickname": "The Coach",
+      "social": {
+        "twitch": "https://www.twitch.tv/zoham24",
+        "instagram": "https://www.instagram.com/ian_ac?igsh=MTRlNmVhaGtsOGNwcQ=="
+      }
     },
     {
       "id": "Gelo2Sick",
@@ -30,7 +42,11 @@
       "vanguard": "Doctor Strange, Emma Frost, Groot, Magneto, Venom",
        "description": "Gelo by far is the best duelist in the game, he excels in using characters that require quick reflexes and precise timing.",
       "Image": "winterSoldier2.jpg",
-      "nickname": "The Golden boy"
+      "nickname": "The Golden boy",
+      "social": {
+        "twitch": "",
+        "instagram": "https://www.instagram.com/gelo2sick?igsh=bzVxcjllMzl4cGNx"
+      }
     },
     {
       "id": "Nyme",
@@ -38,7 +54,11 @@
       "vanguard": "Magneto, Peni Parker, Doctor Strange",
        "description": "Nyme the promised one, he is a player that learnes from his mistakes and is always looking to improve. He is our main tank, and excels in using shield characters.",
       "Image": "penny2.jpg",
-      "nickname": "Amazon's MVP"
+      "nickname": "Amazon's MVP",
+      "social": {
+        "twitch": "https://www.twitch.tv/if_nyme",
+        "instagram": "https://www.instagram.com/nyme_dream?igsh=N2F3Z2FjeHEyNDB0"
+      }
     },
     {
       "id": "Avalon",
@@ -46,7 +66,11 @@
       "duelist": "Squirrel Girl, Scarlet Witch, Namor, Psylocke, Moon Knight",
       "description": "Avalon is a versatile player who can adapt to different situations and playstyles. ",
       "Image": "namor2.jpg",
-      "nickname": "Crybaby"
+      "nickname": "Crybaby",
+      "social": {
+        "twitch": "https://www.twitch.tv/imtheavalon",
+        "instagram": "https://www.instagram.com/im_avalon_?igsh=aDlnajBoODh4cHc3 "
+      }
     }
   ]
 }
