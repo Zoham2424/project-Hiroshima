@@ -415,7 +415,7 @@ input:checked + .slider:before {
 .modal-content ul {
   list-style-type: disc;       
   padding-left: 1.5rem;       
-  color: #333333;              
+  color: #d44810;              
   font-size: 2rem;
   line-height: 1.6;
   max-width: 400px;            
